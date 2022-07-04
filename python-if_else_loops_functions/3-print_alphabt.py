@@ -2,4 +2,4 @@
 for i in range(97,123):
     letter = chr(i)
     if letter not in ("qe"):
-        print(letter, end="")
+        print("{}".format(letter), end="")
