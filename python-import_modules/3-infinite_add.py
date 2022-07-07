@@ -10,6 +10,6 @@ def main():
         sum += args_n 
     print(sum) 
 
-if __name == __'main'__:
+if __name__ == __'main'__
     main()
 
