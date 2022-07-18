@@ -5,6 +5,7 @@ try:
         count = 0
         for i in my_list2:
             count = count+1
-         return my_list, count
+         print(my_list)
+         print(count)
 except:
     print("Out of range")
