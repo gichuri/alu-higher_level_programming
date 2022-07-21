@@ -27,6 +27,7 @@ class Square:
         else:
             self.__size = size
     def area(self):
+
         '''multiply __size by itself to get square area'''
         a= self.__size * self.__size
         return a
