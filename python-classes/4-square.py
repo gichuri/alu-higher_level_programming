@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 
 
-
 '''
 class square
 defines a square
 '''
 
-
 class Square:
-
 
     '''
     class square
@@ -28,10 +25,16 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
+
+    def size(self):
+        '''returns the size of square'''
+        return self.__size
+
     def area(self):
         '''multiply __size by itself to get square area'''
-        a= self.__size * self.__size
+        a = self.__size * self.__size
         return a
+
     def size(self, value):
         ''' getting a self and modifying it'''
 
