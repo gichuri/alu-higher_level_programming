@@ -6,10 +6,7 @@ class square
 defines a square
 '''
 
-
 class Square:
-
-
     '''
     class square
     Args: side of the square
