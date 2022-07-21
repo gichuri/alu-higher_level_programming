@@ -13,27 +13,14 @@ class Square:
     Args: side of the square
     '''
     def __init__(self, size=0):
-        '''
-
-        :param self:
-        :param __size:
-        :return:sides of square (__size)
-        '''
-        if (type(size)) is not int:
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
-        else:
-            self.__size = size
+    """initialisation of square
+    attributes: size(int) defaults to zero if no value is passed
+    """
+            self.size = size
 
     def size(self):
-        '''returns the size of square'''
+        '''getter'''
         return self.__size
-
-    def area(self):
-        '''multiply __size by itself to get square area'''
-        a = self.__size * self.__size
-        return a
 
     def size(self, value):
         ''' getting a self and modifying it'''
@@ -44,3 +31,8 @@ class Square:
             raise ValueError('size must be >= 0')
         else:
             self.__size = value
+
+    def area(self):
+        '''multiply __size by itself to get square area'''
+        a= (self.__size)**2
+        return a
