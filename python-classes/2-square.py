@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+
+
+'''
+class square
+defines a square
+'''
+
+
+class Square:
+
+
+    '''
+    class square
+    Args: side of the square
+    '''
+    def __init__(self, size):
+        '''
+
+        :param self:
+        :param __size:
+        :return:sides of square (__size)
+        '''
+        if (type(size)) is not int:
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
