@@ -6,6 +6,7 @@ class square
 defines a square
 '''
 
+
 class Square:
     '''
     class square
