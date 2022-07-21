@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """
 Module 4-square.py
 defines class Square
@@ -8,32 +6,34 @@ defines class Square
 
 
 class Square:
-
-    '''
-    class square
-    Args: side of the square
-    '''
-    def __init__(self, size=0):
-    """initialisation of square
-    attributes: size(int) defaults to zero if no value is passed
+    """class Square definition
+    Args: size(int) - side of the square
     """
-            self.size = size
 
+    def __init__(self, size=0):
+        """
+                Initialization of square
+                Attributes: Size(int) - defaults to zero if no value
+        """
+        self.size = size
+
+    @property
     def size(self):
-        '''getter'''
+        """getter"""
         return self.__size
 
+    @size.setter
     def size(self, value):
-        ''' getting a self and modifying it'''
-
+        """ setter
+            sets size to value if value is int and greater than 0
+        """
         if type(value) is not int:
-            raise TypeError('size must be an integer')
+            raise TypeError("size must be an integer")
         elif value < 0:
-            raise ValueError('size must be >= 0')
+            raise ValueError("size must be >= 0")
         else:
             self.__size = value
 
     def area(self):
-        '''multiply __size by itself to get square area'''
-        a= (self.__size)**2
-        return a
+        """Calculates area of the square"""
+        return (self.__size)**2
