@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
 
-'''
-class square
-defines a square
-'''
+"""
+Module 4-square.py
+defines class Square
+"""
+
 
 class Square:
 
