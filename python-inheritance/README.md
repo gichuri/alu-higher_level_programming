@@ -1,0 +1,1 @@
+codes on python inheritance
