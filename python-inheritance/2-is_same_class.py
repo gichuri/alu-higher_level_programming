@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""class to inherit from list"""
+"""class to inherit
+from list class"""
 class MyList (list):
     """mylist is a subclass of list"""
 
