@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""append string at the end of a file"""
+"""function to append the contents of file"""
 
 
 def append_write(filename="", text=""):
