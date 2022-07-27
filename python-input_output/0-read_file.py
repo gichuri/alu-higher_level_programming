@@ -8,4 +8,5 @@ def read_file(filename=""):
     '''use with to open and close file'''
 
     with open(filename, encoding="utf-8") as myfile:
-        print(myfile.readline())
+        for line in myfile:
+            print(line, end='')
