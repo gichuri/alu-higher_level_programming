@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""A rectangle class that inhert from Geometry"""
+
+'''new class recangle that extends the class geometry'''
 
 
 class Rectangle(BaseGeometry):
