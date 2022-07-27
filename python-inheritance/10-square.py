@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 '''new class square that extends the super class'''
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Square(Rectangle,BaseGeometry):
