@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-'''new class Rectangle extending geometry'''
+'''new class Rectangle
+        extending geometry'''
 
 
 class Rectangle(BaseGeometry):
