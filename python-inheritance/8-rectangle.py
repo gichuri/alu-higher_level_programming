@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-"""A rectangle class that inhert from Geometry 
-        more projects on classes and objects"""
+"""A rectangle class that inhert from Geometry"""
+
+
 class Rectangle(BaseGeometry):
         '''instatiating Rectangle object'''
 
