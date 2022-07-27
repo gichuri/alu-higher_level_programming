@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
-"""function to append the contents of file"""
+""" Module that contains a function that appends to a text file
+"""
 
 
 def append_write(filename="", text=""):
