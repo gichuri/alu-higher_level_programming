@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-'''an empthy class 
+'''an empthy class
         geometry'''
 
 
