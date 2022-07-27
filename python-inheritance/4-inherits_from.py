@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-''' verify if object 
+''' verify if object
         is intance of class'''
 
 
