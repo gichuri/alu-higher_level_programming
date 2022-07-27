@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 
 
-"""module to sort elements in a list"""
-class MyList (list):
-    """mylist is a subclass of list"""
+'''verifying if object belings 
+    to a specified class'''
 
-    def print_sorted(self):
+def is_same_class(obj, a_class):
+    '''calling builtin magic method isintance'''
 
-        """method to print a sorted list of elements"""
-
-        print(sorted(list))
+    return isinstance(obj, a_class)
