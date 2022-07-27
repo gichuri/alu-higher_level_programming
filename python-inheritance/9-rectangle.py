@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-
+'''adding to geometry class'''
 
 class Rectangle(BaseGeometry):
         '''instatiating Rectangle object'''
