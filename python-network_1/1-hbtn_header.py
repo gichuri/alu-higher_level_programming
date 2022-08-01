@@ -5,7 +5,7 @@
 """display the x-Request-ID variale"""
 
 import sys
-
+import urllib
 
 def fetcher():
     """fetcher"""
