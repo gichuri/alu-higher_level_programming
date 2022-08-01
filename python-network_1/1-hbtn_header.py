@@ -1,11 +1,8 @@
-
 #!/usr/bin/python3
-
-
-"""display the x-Request-ID variale"""
-
-import sys
+"""Fetches header"""
 import urllib.request
+import sys
+
 
 def fetcher():
     """fetcher"""
