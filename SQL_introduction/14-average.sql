@@ -1,2 +1,2 @@
 -- inserting average column 
-INSERT INTO second_table (average) VALUES(AVG(score));
+SELECT AVG(score) AS average FROM second_table;
