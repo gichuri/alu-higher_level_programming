@@ -1,3 +1,5 @@
 -- show my table 
-DESC first_table; 
+SELECT *
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE table.name = 'first_table' 
 
