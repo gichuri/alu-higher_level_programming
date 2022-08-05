@@ -1,4 +1,4 @@
---t creates the table id_not_null
+--create a new table
 CREATE TABLE IF NOT EXISTS first_table (
 	id INT,
 	name VARCHAR(256)
