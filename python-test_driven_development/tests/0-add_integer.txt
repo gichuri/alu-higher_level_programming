@@ -1,7 +1,5 @@
-import unittest
-
-
-
+Using ``add_integer``
+-----------------------
 
 intial parameter "b" has been defaulted to "98" type int
 make sure the parameters are type(int)
