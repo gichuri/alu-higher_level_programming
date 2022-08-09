@@ -17,4 +17,4 @@ def add_integer(a, b=98):
     elif type(b) is not int:
         raise TypeError("{} must be an integer".format(b))
     else:
-        return a+b
+        print a+b
