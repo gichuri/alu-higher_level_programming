@@ -1,20 +1,22 @@
 #!/usr/bin/python3
 """
-This module describes a method to add two integers
+add_integer:
+    Checks if parameters are int
+    Returns sum of parameters
 """
 
 
 def add_integer(a, b=98):
-    '''
-    add two integers
-
-    '''
-    if type(a) or type(b) == float:
+    """
+    Checks if int, otherwise return sum
+    """
+    if type(a) == float or type(b) == float:
         a = int(a)
         b = int(b)
-    elif type(a) is not int:
-        raise TypeError("{} must be an integer".format(a))
-    elif type(b) is not int:
-        raise TypeError("{} must be an integer".format(b))
+
+    if type(a) != int:
+        raise TypeError("a must be an integer")
+    elif type(b) != int:
+        raise TypeError("b must be an integer")
     else:
-        return a+b
+        return a + b
