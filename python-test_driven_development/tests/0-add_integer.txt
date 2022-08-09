@@ -1,0 +1,67 @@
+import unittest
+
+
+
+
+intial parameter "b" has been defaulted to "98" type int
+make sure the parameters are type(int)
+return the sum of both  parameters 
+
+first step: import "add_integer" 
+	>>> add_integer == __import__('0-add_integer.py').add_integer
+
+after importing, implement it: 
+
+normal use: 
+
+	>>> add_integer(1, 2)
+	3
+
+Negative input: 
+	>>> add_integer(100, -3) 
+	97
+
+one input(3) 
+	>>> add_integer(4) 
+	96
+
+float and negative input
+	>>> add_integer(30.3, 2)
+	32 
+
+float overflow
+	>>> add_integer(1200.3)
+	1298
+
+float NaN
+	>>> add_integer((float('NaN'))
+	Traceback (most recent call last):
+	...
+	ValueError: cannot convert float NaN to integer
+
+string inputs 
+	>>> add_integer("school, 3)
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+string inputs 
+	>>> add_integer(5, 'martin')
+	 Traceback (most recent call last):
+	...
+	TypeError: b must be an integer
+
+None input 
+	>>> add_integer(None) 
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+
+Double negative float input:
+    >>> add_integer(-100.5, -10.8)
+    -110
+Double string input:
+    >>> add_integer("Martin", "Ndungu")
+    Traceback (most recent call last):
+    ...
+    TypeError: a must be an integer
+	
