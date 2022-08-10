@@ -24,6 +24,11 @@ class TestMaxInteger(unittest.TestCase):
         """
         self.assertEqual(max_integer([-1, -2, -3, -4]), -1)
 
+    def test_max_int_middle(self):
+        """tests if max is in the middle
+        """
+        self.assertEqual(max_integer([1,2,78,9]), 78)
+
     def test_max_int_one(self):
         """ tests if list has only one item
         """
