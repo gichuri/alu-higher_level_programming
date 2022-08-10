@@ -1,0 +1,32 @@
+printing a square in #
+------------------------
+
+size must be int, not less than 0 
+raise value errror if size less than 0 
+raise type error if size not int
+
+first import "4-print_square" 
+
+	>>> add print_square = __import__('0-add_integer.py').print_square
+
+implement 
+
+size is int and > 0 
+	>>> print_square(2)
+	##
+	##
+size is not int
+	>>> print_square('marto')
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+size is float and less than 0
+	>>> print_square(0.2)
+	 Traceback (most recent call last):
+         ...
+	ValueError: size must be an integer
+
+size is empty 
+	>>> print_square()
+	None 
