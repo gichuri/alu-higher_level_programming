@@ -32,4 +32,3 @@ def matrix_divided(matrix, div):
         res_matrix.append(inner_list)
 
     return res_matrix
-
