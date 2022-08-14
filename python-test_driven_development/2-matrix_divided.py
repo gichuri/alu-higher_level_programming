@@ -13,6 +13,7 @@ def matrix_divided(matrix, div):
     mes0 = 'matrix must be a matrix (list of lists) of integers/floats'
     mes1 = 'Each row of the matrix must have the same size'
     inner_list = []
+    res_list = []
     if not isinstance(div, (int,float)):
         raise TypeError('div must be a number')
     if div == 0:
@@ -28,5 +29,7 @@ def matrix_divided(matrix, div):
         else:
             for i in row:
                 inner_list.append(round(i/div, 2))
+                res_list.append(inner_list)
 
-    return inner_list
+        return res_list
+
