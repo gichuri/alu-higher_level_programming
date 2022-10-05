@@ -1,5 +1,4 @@
 #!/usr/bin/node
-#!/usr/bin/node
 const args = process.argv;
 if (Number(args[2]) != NaN) {
   console.log('My number:', Number(args[2]));
