@@ -8,8 +8,8 @@ if (isNaN(Number(args[2]))) {
   for (i = 0; i < Number(args[2]); i++) {
     let row = '';
     for (j = 0; j < Number(args[2]); j++) {
-    row += 'X';
+      row += 'X';
     }
-    console.log(row +'');
+    console.log(row + '');
   }
 }
