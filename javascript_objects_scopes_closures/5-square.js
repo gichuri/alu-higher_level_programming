@@ -27,7 +27,8 @@ class Rectangle {
     }
   };
 class Square extends Rectangle {
-    constructor(size, size)
     super(w, h)
+    constructor (size, size)
 };
 module.exports = Rectangle
+module.exports = Square
