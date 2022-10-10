@@ -12,4 +12,4 @@ class Square extends parentsquare {
     }
   }
 }
-module.exports = square;
+module.exports = Square;
